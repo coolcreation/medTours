@@ -1,0 +1,196 @@
+/*---------------------------------------------------------------------------------------------------------------
+#Original Author:   Jeff Bohn :  "SWDV143 Class project week 2" 
+#Date Created:   3/2/2021    
+#Date Last Modified:                   
+#Modification log:  Create style.css              
+-----------------------------------------------------------------------------------------------------------------*/
+body{
+    font-family: 'MedievalSharp', cursive !important;
+    text-transform: uppercase;
+    background-image: url(../images/background_Black.jpg);
+    
+}
+.top{
+    color: white;
+}
+
+/*______top Bar___*/
+.top-bar{
+    padding-bottom: 1px;
+   background-color: black;
+   font-size: 1.2em; 
+}
+a{
+    color: #ff0000 !important;
+}
+
+/*______Carousel_____*/
+#carousel{
+    height: 77.5vh;
+}
+
+
+/*______First Section______*/
+.customMisc{
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 1em;
+}
+#first{
+   height: 40vh;
+   margin-top: 10vh;
+
+}
+
+/*______Second Section______*/
+.trips{
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 3em;
+}
+#second{
+   height: 40vh;
+   margin-top: 5vh;
+   margin-bottom: 12vh;
+}
+
+
+
+  /*______Cards/Reviews____*/
+  .cardsContainer{
+   color: red;
+   max-width: 100%;
+   margin-bottom: 14vh;
+   font-weight: bold;
+   }
+   .card-body{
+    background-color: rgba(169, 169, 169, 0.542);
+    
+   }
+
+/*______Contact Form______*/
+.customForm{
+    border: 2px solid red !important;  /*  #313131  */
+    border-radius: 10px;
+
+    background: rgb(0, 0, 0);
+    color: white;
+}
+span{
+    color: #ff0000;
+}
+.formContainer{
+    background-image: url(../images/background_Black.jpg);
+    height: 110vh;
+    max-width: 100%; 
+}
+.btn{
+    color: red !important;
+}
+/*____Confirmation Page____*/
+
+.confirmBox{
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 97%;
+    margin-top: 20vh !important;
+    background-color: #e80000;
+    color: black;
+    text-shadow: 1px 1px white;
+    font-weight: bold;
+
+}
+.backGround{
+    background-image: url(../images/background_Black.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 750px;
+ }
+ .confirmBoxH1{
+     font-size: 1.9em;
+ }
+.socialIcons{
+    margin-left: 25%;
+}
+
+.footer-classic{
+    margin-top: -14vh !important;   
+}
+
+
+
+/*______________________DESKTOP_________________________*/
+
+
+@media screen and (min-width: 768px) {
+    .top-bar{
+       font-size: 1.3em; 
+    }
+    /*______Carousel_____*/
+     #carousel{
+     height: 30vh  !important;
+     }
+    .confirmBox{
+        min-width: 40vw !important;
+        max-width: 10%;
+    }
+    .backGround{
+    background-repeat: repeat;
+    background-size: cover; 
+    }
+    .confirmBoxH1{
+        font-size: 2.2em;
+    }
+
+    /*______First Section______*/
+      .customMisc{
+}
+    #first{
+    height: 40vh;
+    margin-top: 15vh;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+/*______Second Section______*/
+.trips{
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 1em;
+    padding-left: 5em;
+
+}
+#second{
+    max-width: 50%;
+    margin-left: 25%;
+    height: 30vh;
+    margin-top: -1vh;
+}
+  
+ 
+   /*______Cards/Reviews____*/
+   .cardsContainer{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-top: 18vh;
+   }
+
+   /*______Form______*/
+   .customForm{
+    max-width: 50%;
+   }
+   .customForm{
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 22vh;
+} 
+.footer-classic{
+    margin-top: -14vh !important;   
+}
+  }
